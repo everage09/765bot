@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix='??',
                    help_command=None,
                    intents=intents)
 
-token = "ODU5MDYyNDE1NTg1MTgxNjk3.YNnOOA.My9TZc8KGrEqoDdUdJKrDioQ9HY"
+token = "Your Token"
 
 for file in os.listdir("../cogs"):
     if file.endswith(".py"):
